@@ -43,3 +43,6 @@ yarn-error.log*
 target
 **/*.rs.bk
 test-ledger
+
+# Local Netlify folder
+.netlify
