@@ -79,7 +79,7 @@ export function useTodo() {
     }, [connection, anchorWallet])
 
     useEffect(() => {
-
+        // Fetch userprofile if there is a profile then get its todoAccounts
         if(initialized) {
             setTodos(dummyTodos)
         }
